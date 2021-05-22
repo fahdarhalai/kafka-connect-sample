@@ -22,7 +22,7 @@ cat connectors/mysql-source-products.sql | docker exec -i mysql-source mysql -u 
 ./scripts/create-topics.sh
 ```
 
-4. Inside `kafka-connect-sample` (*important*), create JDBC sink connector:
+4. Inside `kafka-connect-sample` (*important*), create JDBC Source Connector:
 ```bash
 ./scripts/create-connectors.sh
 ```
